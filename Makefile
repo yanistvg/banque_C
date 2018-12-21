@@ -14,4 +14,4 @@ compile:
 clear:
 	rm $(OBJ) $(NAME)
 
-re: clean compile
+re: clear compile
