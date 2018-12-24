@@ -2,6 +2,12 @@
 #include <unistd.h>
 #include <stdlib.h>
 
+void affiche(int *choix);
+void retire();
+void depose();
+void newAccout();
+void adminstration();
+
 typedef struct Users
 {
   char *name;
